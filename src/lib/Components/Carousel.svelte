@@ -38,7 +38,7 @@
 							<br />
 							<a
 								class="btn mx-4 my-4 font-semibold text-lg rounded-lg bg-success-content"
-								href="/anime?anime={anime.id}"
+								href="/reader"
 							>
 								Watch Now
 							</a>

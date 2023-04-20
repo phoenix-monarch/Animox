@@ -12,6 +12,8 @@
 	}
 </script>
 
+<div class="h-16" />
+
 {#await getAnimes()}
 	.....
 {:then value}

@@ -28,6 +28,15 @@ class Gogoanime {
         })).data
         return data;
     }
+
+    async randomCh() {
+        const url = "https://api.consumet.org/manga/mangadex/read/5f7891b4-f048-4516-9c75-7bcd6dbd1451";
+        const data = (await fetch(url, {
+            method: "GET",
+            responseType: ResponseType.JSON
+        })).data
+        return data;
+    }
 }
 
 export const gogoanime = new Gogoanime()

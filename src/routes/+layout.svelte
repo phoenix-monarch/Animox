@@ -6,10 +6,9 @@
 
 <header class="fixed z-10 w-full bg-base-300">
 	<TitleBar />
-
 	<!-- <Navbar /> -->
 </header>
-<main class="scrollbar-hide relative z-0 pt-20 overflow-hidden">
+<main class="scrollbar-hide relative z-0 overflow-hidden">
 	<slot />
 </main>
 
